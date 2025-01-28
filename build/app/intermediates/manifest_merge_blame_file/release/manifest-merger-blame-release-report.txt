@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.essishop_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:2:1-63
+11-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:2:18-60
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:2:1-63
+12-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:2:18-60
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:4:1-61
+13-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:4:18-58
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:5:1-67
+14-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:5:18-64
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:6:1-76
+15-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:6:18-73
+16    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+16-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:7:1-68
+16-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:7:18-65
+17    <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
+17-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:8:1-68
+17-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:8:18-65
+18    <!--
+19         Required to query activities that can process text, see:
+20         https://developer.android.com/training/package-visibility and
+21         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+22
+23         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+24    -->
+25    <queries>
+25-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:46:5-51:15
+26        <intent>
+26-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:47:9-50:18
+27            <action android:name="android.intent.action.PROCESS_TEXT" />
+27-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:48:13-72
+27-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:48:21-70
+28
+29            <data android:mimeType="text/plain" />
+29-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:49:13-50
+29-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:49:19-48
+30        </intent>
+31    </queries>
+32
+33    <uses-feature android:name="android.hardware.camera" />
+33-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-60
+33-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:19-57
+34
+35    <uses-permission android:name="android.permission.FLASHLIGHT" />
+35-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-69
+35-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-66
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.essishop_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.essishop_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:11:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] C:\Users\dimit\.gradle\caches\transforms-3\4cefa050b0c4ea9b1f45909d19944071\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+46        android:extractNativeLibs="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:12:9-43
+48        android:label="essishop_app"
+48-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:10:9-37
+49        android:largeHeap="true"
+49-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-33
+50        android:theme="@style/Theme.AppCompat.NoActionBar" >
+50-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-59
+51        <activity
+51-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:13:9-34:20
+52            android:name="com.example.essishop_app.MainActivity"
+52-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:14:13-41
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:19:13-163
+54            android:exported="true"
+54-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:15:13-36
+55            android:hardwareAccelerated="true"
+55-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:20:13-47
+56            android:launchMode="singleTop"
+56-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:16:13-43
+57            android:taskAffinity=""
+57-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:17:13-36
+58            android:theme="@style/LaunchTheme"
+58-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:18:13-47
+59            android:windowSoftInputMode="adjustResize" >
+59-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:21:13-55
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+67-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:26:13-29:17
+68                android:name="io.flutter.embedding.android.NormalTheme"
+68-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:27:15-70
+69                android:resource="@style/NormalTheme" />
+69-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:28:15-52
+70
+71            <intent-filter>
+71-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:30:13-33:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:31:17-68
+72-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:31:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:32:17-76
+74-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:32:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:37:9-39:33
+82            android:name="flutterEmbedding"
+82-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:38:13-44
+83            android:value="2" />
+83-->D:\flutter\essishop_app\essishop_app\android\app\src\main\AndroidManifest.xml:39:13-30
+84
+85        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+85-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-91
+85-->[:simple_barcode_scanner] D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:16:19-88
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\c7f6b40b4cbc3cb19645c8c89fb70d4c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\c7f6b40b4cbc3cb19645c8c89fb70d4c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\c7f6b40b4cbc3cb19645c8c89fb70d4c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\c7f6b40b4cbc3cb19645c8c89fb70d4c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\3465465ca1bb78c3d3a9071a439dae1b\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\3465465ca1bb78c3d3a9071a439dae1b\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\dimit\.gradle\caches\transforms-3\3465465ca1bb78c3d3a9071a439dae1b\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+94
+95        <uses-library
+95-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+98        <uses-library
+98-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.2.0] C:\Users\dimit\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+101
+102        <provider
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+103            android:name="androidx.startup.InitializationProvider"
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+104            android:authorities="com.example.essishop_app.androidx-startup"
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+105            android:exported="false" >
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\dimit\.gradle\caches\transforms-3\a4def40035927cb6d856303427b50933\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\dimit\.gradle\caches\transforms-3\ec9fdb662d7f540d2603f340c7b5ab14\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>

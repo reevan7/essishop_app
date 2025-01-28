@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\dimit\AppData\Local\Pub\Cache\hosted\pub.dev\simple_barcode_scanner-0.2.6\android"
+    name=":simple_barcode_scanner"
+    type="LIBRARY"
+    maven="com.amolg.flutterbarcodescanner:simple_barcode_scanner:"
+    agpVersion="8.2.1"
+    buildFolder="D:\flutter\essishop_app\essishop_app\build\simple_barcode_scanner"
+    bootClassPath="D:\flutter\sdk\platforms\android-34\android.jar;D:\flutter\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>
