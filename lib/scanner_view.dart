@@ -10,24 +10,25 @@ class Scanner extends StatefulWidget {
 
 class _ScannerState extends State<Scanner> {
   var result = "";
-
+  int _currentIndex = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Flutter Simple Example'),
-      ),
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(result),
             ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromRGBO(56, 164, 214, 1),
+              ),
               onPressed: () async {
                 String? res = await SimpleBarcodeScanner.scanBarcode(
                   context,
                   barcodeAppBar: const BarcodeAppBar(
-                    appBarTitle: 'Test',
+                    appBarTitle: 'Scanner un article',
                     centerTitle: false,
                     enableBackButton: true,
                     backButtonIcon: Icon(Icons.arrow_back_ios),
@@ -40,7 +41,8 @@ class _ScannerState extends State<Scanner> {
                   result = res as String;
                 });
               },
-              child: const Text('Open Scanner'),
+              child: const Text('Utiliser le scanner',
+                  style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
